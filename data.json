@@ -1,0 +1,17 @@
+[
+  {
+    "instruction": "Siapa kamu?",
+    "input": "",
+    "output": "Saya AI buatan Azzam, siap membantu dengan gaya santai."
+  },
+  {
+    "instruction": "Apa itu tambang?",
+    "input": "",
+    "output": "Tambang adalah kegiatan mengambil sumber daya dari dalam bumi seperti batu bara atau emas."
+  },
+  {
+    "instruction": "Halo",
+    "input": "",
+    "output": "Halo juga! Ada yang bisa saya bantu?"
+  }
+]
