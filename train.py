@@ -73,3 +73,6 @@ trainer = Trainer(
 )
 
 trainer.train()
+
+model.save_pretrained("ai-model")
+tokenizer.save_pretrained("ai-model")
