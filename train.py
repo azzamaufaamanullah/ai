@@ -22,7 +22,13 @@ def format_data(example):
 dataset = dataset.map(format_data)
 
 def tokenize(example):
-    return tokenizer(example["text"], truncation=True, padding="max_length")
+    tokens = tokenizer(
+        example["text"],
+        truncation=True,
+        padding="max_length"
+    )
+    tokens["labels"] = tokens["input_ids"].copy()
+    return tokens
 
 dataset = dataset.map(tokenize, batched=True)
 
